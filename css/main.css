@@ -76,15 +76,21 @@ main a{
   color: #fff;
 }
 
-.btn {
+.primary-btn {
   background-color: #1a1a1a;
   color: #fff;
   padding: .5em 1em;
   border-radius: .6em;
+  text-align: center;
 }
 
-.btn:hover {
+.primary-btn:hover {
   background-color: #996C58;
+}
+
+.primary-btn:focus {
+  background-color: #996C58;
+  outline: 3px solid #996C58;
 }
 
 .listing-heading {
@@ -137,14 +143,14 @@ article {
   font-weight: bold;
   margin: 0 0 1rem;
 }
-
+/*
 .buy-btn {
   background-color: #1a1a1a;
   color: #fff;
   padding: .5em 1em;
   border-radius: .6em;
   text-align: center;
-}
+} */
 
 .listings img {
   /* min-width: 343px; */
@@ -162,6 +168,16 @@ article {
  padding: .4rem 1rem 1.3rem;
  /* white-space: nowrap; */
 }
+
+.secondary-btn {
+  flex-shrink:
+  outline: 3px solid #1A1A1A;
+  color: #1A1A1A;
+  padding: .5em 1em;
+  border-radius: .6em;
+  text-align: center;
+}
+
 @media only screen and (min-width: 38em) {
 
 .listing-wrapper {
