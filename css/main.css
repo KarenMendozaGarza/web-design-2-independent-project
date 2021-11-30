@@ -28,7 +28,14 @@ html {
   text-align: center;
 }
 
-banner-img {
+.banner {
+  background: ##996C58;
+  background-image: url(images/Tempbanner.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.banner-img {
   width: 100%;
 }
 
@@ -46,6 +53,12 @@ header {
 }
 
 .intro-text {
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+}
+
+h1,
+h2 {
   font-family: ivypresto-display, serif;
   font-weight: 300;
 }
@@ -82,18 +95,20 @@ main a{
 }
 
 article {
+  margin: 0;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 1.3em;
 }
 
 .listings {
-  position: relative;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   padding: 1.3em;
-  min-height: 648px;
+  /* margin-left: 0; */
+  /* min-height: 630px; */
+  min-width: 343px;
   border-radius: .8em;
   background : #FFFFFF;
   background : rgba(255, 255, 255, 1);
@@ -106,7 +121,21 @@ article {
 .listing-name {
   font-family: ivypresto-display, serif;
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin: 1.3rem 0 0;
+}
+
+.listing-heading {
+  margin-bottom: 0;
+}
+
+.listing-description {
+  flex-grow: 1;
+}
+
+.price {
+  font-weight: bold;
+  margin: 0 0 1rem;
 }
 
 .buy-btn {
@@ -118,8 +147,24 @@ article {
 }
 
 .listings img {
-  display: block;
-  width: 100%;
-  height: auto;
-  flex-grow: 2;
+  /* min-width: 343px; */
+  /* justify-content: center; */
+}
+
+.listing-wrapper {
+ display: flex;
+ gap: 1.5rem;
+ overflow-x: scroll;
+ /* overflow-style: none; */
+/* margin: 1.3rem; */
+ width: 100vw;
+ height: fit-content;
+ padding: .4rem 1rem 1.3rem;
+ /* white-space: nowrap; */
+}
+@media only screen and (min-width: 38em) {
+
+.listing-wrapper {
+  overflow-x: visible;
+  white-space: normal;
 }
