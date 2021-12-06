@@ -302,7 +302,10 @@ footer {
    margin-left: 0;
    padding-left: 0;
  }
-
+.social-links {
+  color: #1A1A1A;
+  text-decoration: underline dotted #996C58;
+}
 /* }
   .listing-wrapper {
     display: grid;
