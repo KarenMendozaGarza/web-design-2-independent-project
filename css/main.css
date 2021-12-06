@@ -127,21 +127,21 @@ article {
   grid-gap: 1.3em;
 }
 
+.listing-img {
+  max-width: 75vw;
+}
+
 .listings {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 1.3em;
-  /* margin-left: 0; */
-  /* min-height: 630px; */
-  /* min-width: 343px; */
   border-radius: .8em;
   background : #FFFFFF;
   background : rgba(255, 255, 255, 1);
   -moz-border-radius : .8em;
   -webkit-border-radius : .8em;
   box-shadow : .2em .4em .8em rgba(0, 0, 0, 0.25);
-  /* filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=4, OffY=4, Color='#000000') ; */
 }
 
 .listing-name {
@@ -172,9 +172,6 @@ article {
   text-align: center;
 } */
 
-.listings img {
-  /* justify-content: center; */
-}
 
 .listing-wrapper {
  display: flex;
