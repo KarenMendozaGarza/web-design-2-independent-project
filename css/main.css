@@ -69,7 +69,6 @@ nav ul li {
   font-size: 1.3rem;
   font-style: normal;
   padding: .5rem 1rem;
-  border: 3px solid #996C58;
   border-radius: .6em;
   margin: 0 .5rem;
 }
@@ -77,6 +76,17 @@ nav ul li {
 nav a{
   text-decoration: none;
   color: #1a1a1a;
+}
+
+nav a:hover {
+  text-decoration: underline solid 1px #996C58;
+}
+
+nav a:focus {
+  padding: .5rem 1rem;
+  border-radius: .6em;
+  margin: 0 .5rem;
+  outline: 3px solid #996C58;
 }
 
 .logo {
@@ -93,6 +103,7 @@ nav a{
   background-position: left 60%;
   width: 100vw;
   height: 80vh;
+  min-height: 530px;
   overflow: hidden;
   position: relative;
   margin-bottom: 4rem;
@@ -146,6 +157,7 @@ main a{
   padding: .5em 2em;
   border-radius: .6em;
   text-align: center;
+  transition-duration: 0.4s;
 }
 
 .primary-btn:hover {
@@ -154,7 +166,7 @@ main a{
 
 .primary-btn:focus {
   background-color: #996C58;
-  outline: 3px solid #996C58;
+  outline: 3px solid #1a1a1a;
 }
 
 .listing-heading {
@@ -212,15 +224,6 @@ article {
 ::-webkit-scrollbar-thumb:hover {
 background: #996C58;
 }
-/*
-.buy-btn {
-  background-color: #1a1a1a;
-  color: #fff;
-  padding: .5em 1em;
-  border-radius: .6em;
-  text-align: center;
-} */
-
 
 .listing-wrapper {
  display: flex;
@@ -234,16 +237,20 @@ background: #996C58;
 
 .secondary-btn {
   display: block;
-  outline: 3px solid #1A1A1A;
+  border: 3px solid #1A1A1A;
   color: #1A1A1A;
   padding: .5em 2em;
   border-radius: .6em;
-  /* text-align: right; */
   margin: 0 auto 4em;
-  /* max-width: 16em; */
+  transition-duration: 0.4s;
 }
 
 .secondary-btn:hover {
+  border: 3px solid #996C58;
+
+}
+
+.secondary-btn:focus {
   outline: 3px solid #996C58;
 }
 
