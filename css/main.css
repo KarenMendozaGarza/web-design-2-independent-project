@@ -66,7 +66,7 @@ nav ul {
 }
 
 nav ul li {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-style: normal;
   padding: .5rem 1rem;
   border-radius: .6em;
@@ -89,13 +89,17 @@ nav a:focus {
   outline: 3px solid #996C58;
 }
 
+.current {
+  color: #996c58;
+}
+
 .logo {
   display: block;
   max-width: 125px;
   margin: 1em auto 0;
 }
 
-.banner {
+.hero-banner {
   background: #996C58;
   background-image: url(../images/banner.jpg);
   background-size: cover;
@@ -151,7 +155,7 @@ main a{
 }
 
 .primary-btn {
-    font-size: 1.5rem;
+  font-size: 1em;
   background-color: #1a1a1a;
   color: #fff;
   padding: .5em 2em;
@@ -205,7 +209,7 @@ article {
   font-family: ivypresto-display, serif;
   font-weight: 300;
   font-size: 1.5rem;
-  margin: 1.3rem 0 0;
+  margin: 0.5em 0 0;
 }
 
 .listing-heading {
@@ -213,6 +217,7 @@ article {
 }
 
 .listing-description {
+  font-size: 1em;
   flex-grow: 1;
 }
 
@@ -254,10 +259,6 @@ background: #996C58;
   outline: 3px solid #996C58;
 }
 
-p {
-  font-size: 1.2em;
-}
-
 .about-me {
   display: grid;
   grid-template-columns: 1fr;
@@ -280,19 +281,15 @@ p {
 }
 
   .listing-wrapper {
-    overflow-x: visible;
-    white-space: normal;
+    /* justify-content: space-around; */
   }
-
- article {
-  display: grid;
-  grid-template-columns: 2;
-}
-
+  .listings {
+    max-width: 33.33333vh;
+  }
 footer {
   text-align: center;
 }
-}
+
 
 @media only screen and (min-width: 75em) {
 
@@ -303,9 +300,18 @@ footer {
 
 .listing-heading {
  text-align: left;
+ padding: 0 1rem;
 }
 
- .socials {
+.nursery-section {
+  justify-content: flex-end;
+}
+
+.nursery-title {
+  text-align: right;
+}
+
+  .socials {
    list-style-type: none;
    margin-left: 0;
    padding-left: 0;
