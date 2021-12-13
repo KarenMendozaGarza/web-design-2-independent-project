@@ -90,7 +90,7 @@ nav a:focus {
 }
 
 .current {
-  color: #b67059;
+  text-decoration: underline solid 1px #b67059;
 }
 
 .logo {
