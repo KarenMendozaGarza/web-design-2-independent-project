@@ -424,6 +424,11 @@ textarea:focus {
   outline: none;
 }
 
+.thanks {
+  font-size: 1em;
+  color: #b67059;
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
@@ -559,6 +564,10 @@ textarea:focus {
 
   .contact-footer nav {
     display: none;
+  }
+
+  .thanks {
+    align-self: flex-end;
   }
 
 }
