@@ -256,7 +256,7 @@ background: #996C58;
   outline: 3px solid #996C58;
 }
 
-.socials {
+.contact-info {
  list-style-type: none;
  margin-left: 0;
  padding-left: 0;
@@ -288,7 +288,7 @@ footer nav ul {
   margin: 0;
 }
 
-.socials {
+.footer-socials {
   display: flex;
   flex-direction: row;
   justify-content: center;
