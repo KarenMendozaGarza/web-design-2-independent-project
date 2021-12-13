@@ -1,0 +1,30 @@
+# TEAM
+
+Designer & Developer: Karen Mendoza <karenmendozagarza@gmail.com>
+GitHub: https://github.com/karenmendozagarza
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+- “file #:  246026147" ©mtlapcevic - stock.adobe.com
+  Licensed with adobe stock
+  To view a copy of this license, visit https://stock.adobe.com/ca/license-terms#standardLicenses
+  https://stock.adobe.com/ca/images/mock-up-poster-frame-in-modern-interior-background-living-room-scandinavian-style-3d-render-3d-illustration/246026147?prev_url=detail&asset_id=246026147
+
+- "Classic Frame Mockup Bundle" © Kate Roubin
+  Licensed with Creative Market
+  To view a copy of this license, visit https://creativemarket.com/licenses/terms/general#commercial
+  https://creativemarket.com/KateRoubin/3098838-Classic-Frame-Mockup-Bundle
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Atom
+- Git + GitHub
+- Photoshop
+- Illustrator
