@@ -348,6 +348,7 @@ footer nav ul {
 
 .contact-info h2{
   font-size: 1.5em;
+  margin-top: .5em;
 }
 
 .contact-links {
@@ -467,7 +468,7 @@ textarea:focus {
 
   form button {
     grid-area: submit;
-    align-self: end;
+    justify-self: end;
   }
 }
 @media only screen and (min-width: 60em) {
@@ -493,6 +494,21 @@ textarea:focus {
     text-align: left;
     font-size: 3em;
   }
+
+  /* Content Page */
+  .content-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1em;
+  }
+
 }
 @media only screen and (min-width: 75em) {
 
@@ -517,7 +533,6 @@ textarea:focus {
 .site-title {
   display: contents;
 }
-
 /* }
   .listing-wrapper {
     display: grid;
