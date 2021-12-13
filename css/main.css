@@ -336,6 +336,12 @@ footer nav ul {
   margin-top: 1em;
 }
 
+/* Contact Page */
+.contact-info li {
+  display: flex;
+  align-items: center;
+}
+
 @media only screen and (min-width: 38em) {
 
   html {

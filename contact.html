@@ -27,7 +27,7 @@
     </nav>
   </header>
 
-  <main role="main" id="main">
+<main role="main" id="main">
 <h1>Get in touch</h1>
 
 <h2>Like what you see, but don’t see what you need?
@@ -43,20 +43,30 @@ Let’s make it happen!</h2>
 <li><i class="social-icon"><svg><use xlink:href="images/social-icons.svg#mail-icon"></use></svg></i><a class="social-links" href="mailto:themodernprintsco@gmail.com">themodernprintsco@gmail.com</a></li>
 </ul>
 
-
+<form action="thanks.html" method="post">
 [contact form]
 
-First Name
-[fillable field]
+<div>
+<label for="first-name">First Name</label>
+<input id="first-name">
+<div>
 
-Last Name
-[fillable field]
+<div>
+<label for="last-name">Last Name</label>
+<input id="last-name">
+<div>
 
-Your Email
-[fillable field]
+<div>
+<label for="email">Your E-mail</label>
+<input type="email" id="email" placeholder="your@email.com">
+<div>
 
-How can I make your print dreams come true?
-[fillable field]
+<div>
+<label for="message">How can I make your print dreams come true?</label>
+<textarea id="message"></textarea>
+<div>
+<button type="submit">Submit</button>
+</form>
   </main>
 </body>
 </html>
