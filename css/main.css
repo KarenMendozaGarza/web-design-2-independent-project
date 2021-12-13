@@ -338,6 +338,16 @@ footer nav ul {
 
 .content-page {
   padding: 1em;
+  transition: all 0.5s;
+}
+
+.contact-info h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.contact-info h2{
+  font-size: 1.5em;
 }
 
 .contact-links {
@@ -349,7 +359,6 @@ footer nav ul {
 .contact-links a {
 color: #1A1A1A;
 text-decoration: underline dotted #996C58;
-transition: 0.5s;
 }
 
 .contact-links a:hover {
@@ -361,20 +370,16 @@ text-decoration: underline dotted #1a1a1a;
   display: flex;
   align-items: center;
 }
-.contact-info h1 {
-  font-size: 3em;
-  margin: 0;
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
-.contact-info h2{
-  font-size: 1.5em;
-}
-
-legend {
+form button{
   display: block;
-  font-family: ivypresto-display, serif;
-  font-weight: 300;
-  font-size: 1.5em;
+  max-width: 10em;
 }
 
 label {
@@ -393,7 +398,7 @@ textarea {
   font-family: proxima-nova, sans-serif;
   font-size: 1.125em;
   width: 100%;
-  max-width: 25em;
+  /* max-width: 30em; */
   border: 1px solid #996C58;
   border-radius: .6em;
   padding: .3em;
@@ -432,8 +437,39 @@ textarea:focus {
   .about-me h1 {
     font-size: 2.5em;
   }
-}
 
+  /* Contact Page */
+
+  .contact-info {
+    display: block;
+    max-width: 710px;
+  }
+
+  .contact-info h1 {
+    font-size: 4em;
+  }
+
+  .contact-info h2{
+    font-size: 2em;
+  }
+
+  form {
+    display: grid;
+    grid-template-areas:
+    'name email'
+    'message message'
+    '. submit'
+  }
+
+  .message {
+    grid-area: message;
+  }
+
+  form button {
+    grid-area: submit;
+    align-self: end;
+  }
+}
 @media only screen and (min-width: 60em) {
 
   .about-me {
