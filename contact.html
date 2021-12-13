@@ -20,45 +20,60 @@
       <img class="logo" src="images/logo-256.svg" alt="The Modern Prints Co logo">
       <nav role="navigation" id="nav">
         <ul>
-          <li><a href="index.html">Shop</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a class="current" href="#">Contact</a></li>
+          <li><a href="index.html" aria-label="Go to Shop page">Shop</a></li>
+          <li><a href="about.html" aria-label="Go to About page">About</a></li>
+          <li><a class="current" href="#" aria-label="You are currently on the Contact page">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <main role="main" id="main" class="content-page">
-      <div class="contact-info">
+    <main role="main" id="main" class="contact-page">
+      <div class="contact-info-wrapper">
+        <div class="contact-intro">
         <h1>Get in touch</h1>
         <h2>Like what you see, but don’t see what you need? Let’s make it happen!</h2>
         <p>Fill out the custom order form with the mandatory fields to fulfill your print dreams.</p>
+      </div>
+      <div class="contact-info">
         <p>You can also reach me through:</p>
-
         <ul class="contact-links">
-          <li><i class="social-icon"><svg><use xlink:href="images/social-icons.svg#etsy-icon"></use></svg></i><a href="https://www.etsy.com/ca/shop/TheModernPrintsCo">Etsy.com/themodernprintsco</a></li>
-          <li><i class="social-icon"><svg><use xlink:href="images/social-icons.svg#insta-icon"></use></svg></i><a href="https://www.instagram.com/themodernprintsco/">Instagram.com/themodernprintsco</a></li>
-          <li><i class="social-icon"><svg><use xlink:href="images/social-icons.svg#facebook-icon"></use></svg></i><a href="https://m.facebook.com/themodernprintsco">Facebook.com/themodernprintsco</a></li>
-          <li><i class="social-icon"><svg><use xlink:href="images/social-icons.svg#mail-icon"></use></svg></i><a href="mailto:themodernprintsco@gmail.com">themodernprintsco@gmail.com</a></li>
+          <li><i class="social-icon"><svg><use xlink:href="images/social-icons.svg#etsy-icon"></use></svg></i><a href="https://www.etsy.com/ca/shop/TheModernPrintsCo" aria-label="Etsy .com/The Modern Prints Co">Etsy.com/themodernprintsco</a></li>
+          <li><i class="social-icon"><svg><use xlink:href="images/social-icons.svg#insta-icon"></use></svg></i><a href="https://www.instagram.com/themodernprintsco/" aria-label="Instagram .com/The Modern Prints Co">Instagram.com/themodernprintsco</a></li>
+          <li><i class="social-icon"><svg><use xlink:href="images/social-icons.svg#facebook-icon"></use></svg></i><a href="https://m.facebook.com/themodernprintsco" aria-label="Facebook .com/The Modern Prints Co">Facebook.com/themodernprintsco</a></li>
+          <li><i class="social-icon"><svg><use xlink:href="images/social-icons.svg#mail-icon"></use></svg></i><a href="mailto:themodernprintsco@gmail.com" aria-label="The Modern Prints Co @ g mail .com">themodernprintsco@gmail.com</a></li>
         </ul>
       </div>
+    </div>
 
-      <form action="thanks.html" method="post">
-        <div>
-          <label for="name">Your Name<span aria-hidden="true">*</span></label>
-          <input id="name" type="text" placeholder="First Last">
-        </div>
+    <form action="thanks.html" method="post">
+      <div>
+        <label for="name">Your Name<span aria-hidden="true">*</span></label>
+        <input id="name" type="text" placeholder="First Last">
+      </div>
 
-        <div>
-          <label for="email">Your E-mail<span aria-hidden="true">*</span></label>
-          <input type="email" id="email" placeholder="your@email.com">
-        </div>
+      <div>
+        <label for="email">Your E-mail<span aria-hidden="true">*</span></label>
+        <input type="email" id="email" placeholder="your@email.com">
+      </div>
 
-        <div class="message">
-          <label for="message">How can I make your print dreams come true?<span aria-hidden="true">*</span></label>
-          <textarea id="message" type="text"></textarea>
-        </div>
-        <button class="primary-btn" type="submit">Submit</button>
-      </form>
-    </main>
-  </body>
-  </html>
+      <div class="message">
+        <label for="message">How can I make your print dreams come true?<span aria-hidden="true">*</span></label>
+        <textarea id="message" type="text"></textarea>
+      </div>
+      <button class="primary-btn" type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer class="contact-footer" role="contentinfo">
+    <nav>
+      <ul>
+        <li><a href="index.html" aria-label="Go to Shop page">Shop</a></li>
+        <li><a href="about.html" aria-label="Go to About page">About</a></li>
+        <li><a href="#" aria-label="You are currently on the contact page">Contact</a></li>
+      </ul>
+    </nav>
+
+    <small>Copyright © The modern Prints Co. 2021</small>
+  </footer>
+</body>
+</html>
