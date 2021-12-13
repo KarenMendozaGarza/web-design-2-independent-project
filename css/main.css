@@ -196,7 +196,6 @@ article {
 
 .listing-img {
   max-width: 75vw;
-  /* width: 100%; */
 }
 
 .listings {
@@ -489,9 +488,9 @@ textarea:focus {
   form {
     display: grid;
     grid-template-areas:
-    "name email"
-    "message message"
-    ". submit";
+      "name email"
+      "message message"
+      ". submit";
   }
 
   .message {
@@ -506,8 +505,8 @@ textarea:focus {
 }
 
 @media only screen and (min-width: 60em) {
-
   /* About Page */
+
   .about-me {
     display: grid;
     justify-content: center;
@@ -530,7 +529,6 @@ textarea:focus {
     text-align: left;
     font-size: 3em;
   }
-
 
   .about-footer nav {
     display: none;
