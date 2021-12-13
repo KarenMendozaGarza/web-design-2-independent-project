@@ -196,6 +196,7 @@ article {
 
 .listing-img {
   max-width: 75vw;
+  /* width: 100%; */
 }
 
 .listings {
@@ -453,8 +454,15 @@ textarea:focus {
     transform: none;
   }
 
-  .listings {
-    max-width: 33.3333vh;
+  .listing-img {
+    width: 100%;
+  }
+
+  .listing-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 60em;
+    margin: 0 auto;
   }
 
   /* About Page */
@@ -481,9 +489,9 @@ textarea:focus {
   form {
     display: grid;
     grid-template-areas:
-      "name email"
-      "message message"
-      ". submit";
+    "name email"
+    "message message"
+    ". submit";
   }
 
   .message {
@@ -499,6 +507,7 @@ textarea:focus {
 
 @media only screen and (min-width: 60em) {
 
+  /* About Page */
   .about-me {
     display: grid;
     justify-content: center;
@@ -520,6 +529,11 @@ textarea:focus {
   .about-me h1 {
     text-align: left;
     font-size: 3em;
+  }
+
+
+  .about-footer nav {
+    display: none;
   }
 
   /* Content Page */
@@ -549,10 +563,6 @@ textarea:focus {
     display: none;
   }
 
-  .about-footer nav {
-    display: none;
-  }
-
 }
 
 @media only screen and (min-width: 75em) {
@@ -567,8 +577,12 @@ textarea:focus {
     padding: 0 1rem;
   }
 
+  .listing-wrapper {
+    margin: 0;
+  }
+
   .nursery-section {
-    justify-content: flex-end;
+    justify-self: end;
   }
 
   .nursery-title {
