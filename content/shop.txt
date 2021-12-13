@@ -1,0 +1,86 @@
+Header]
+The Modern Prints Co.
+
+[Navigation]
+Shop
+About
+Contact
+
+—
+
+[Banner]
+Welcome,
+I’m glad you’re here. Let’s find the perfect print for your home.
+[link] Shop Prints
+
+—
+
+[Paris section]
+Paris J’taime
+
+Eiffel Tower
+A classic image of a timeless monument. This print will give a modern and sophisticated look to any room. 
+$14.99
+Learn More
+
+Arc de Triomphe
+Black and white original photography of an architectural triumph.
+$14.99
+Learn More
+
+Le Louvre Museum
+Watch the sun setting on The Louvre from your home with this stunning image of a an unusually quiet courtyard.
+$14.99
+Learn More
+
+[link]View More
+
+—
+
+[Nursery Section]
+Nursery Prints
+
+Birth Stats
+Custom made with every order, this beautiful watercolour greenery printable makes a beautiful addition to your nursery.
+$14.99
+Learn More
+
+Monogram
+Water colour and faux gold accents give this monogram a classy feel sure to elevate the look of any nursery.
+$14.99
+Learn More
+
+Name Wreath
+Decorate your little one's room or even your own with this elegant personalized name wreath.
+$14.99
+Learn More
+
+[link]View More
+
+—
+[Typography Section]
+Typography Prints
+
+C'est la Vie
+Add a little Je ne sais quoi to any room in your house with this minimalist, modern art poster.
+$14.99 
+Learn More
+
+Paris Is Always a Good Idea
+Know what else is a good idea? This poster of the iconinc words by Audrey Hepburn
+$14.99
+Learn More
+
+Oh La La
+That's right, this poster is talking to you.
+$14.99
+Learn More
+
+[link]View More
+
+[Footer]
+
+Copyright © The modern Prints Co. 2021
+
+
+

@@ -80,7 +80,8 @@ nav a {
 }
 
 nav a:hover {
-  text-decoration: underline solid #b67059;
+  color: #b67059;
+  text-decoration: underline solid #1a1a1a;
 }
 
 nav a:focus {
@@ -140,13 +141,6 @@ h2 {
   font-weight: 300;
 }
 
-.shop-btn {
-  bottom: 2em;
-  left: 50%;
-  position: absolute;
-  transform: translateX(-50%);
-}
-
 .italics {
   font-style: italic;
 }
@@ -174,6 +168,14 @@ main a {
 .primary-btn:focus {
   background-color: #b67059;
   outline: 3px solid #1a1a1a;
+}
+
+.shop-btn {
+  font-size: 1.25em;
+  bottom: 2em;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
 }
 
 .listing-heading {
@@ -237,6 +239,7 @@ article {
   height: fit-content;
   padding: .4rem 1rem 1.3rem;
   position: relative;
+  transition: all .5s;
 }
 
 .secondary-btn {
@@ -420,6 +423,17 @@ textarea:focus {
   outline: none;
 }
 
+@media only screen and (max-width: 25em) {
+
+  .intro-text h1 {
+    font-size: 4.5em;
+  }
+
+  .intro-text h2 {
+    font-size: 2.5em;
+  }
+
+}
 @media only screen and (min-width: 38em) {
 
   html {
@@ -432,7 +446,21 @@ textarea:focus {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 0 1em 1em;
+    padding: 1em 0 1em 1em;
+    transition: all .5s;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .shop-btn {
+    display: block;
+    font-size: 1.25em;
+    left: auto;
+    right: 1em;
+    bottom: 2em;
+    transform: none;
   }
 
   .listings {
@@ -488,6 +516,7 @@ textarea:focus {
     grid-gap: 1em;
     max-width: 65em;
     margin: 0 auto;
+    transition: all .5s;
   }
 
   .selfie {
@@ -526,6 +555,13 @@ textarea:focus {
     align-self: flex-end;
   }
 
+  .contact-footer nav {
+    display: none;
+  }
+
+  .about-footer nav {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 75em) {
