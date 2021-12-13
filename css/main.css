@@ -123,17 +123,14 @@ nav a:focus {
   /* text-shadow: 1px 1px 4px #fff; */
 }
 
-h1 {
-  font-family: ivypresto-display, serif;
+.intro-text h1 {
   font-weight: 300;
   font-size: 5em;
   margin: -.1em;
 }
 
-h2 {
-  /* color: #fff; */
+.intro-text h2 {
   font-size: 3em;
-  font-family: ivypresto-display, serif;
   font-weight: 300;
   margin: 0 0 1rem;
 }
@@ -259,11 +256,6 @@ background: #996C58;
   outline: 3px solid #996C58;
 }
 
-.about-me {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1em;
-}
 .socials {
  list-style-type: none;
  margin-left: 0;
@@ -302,6 +294,48 @@ footer nav ul {
   justify-content: center;
 }
 
+/* About Page */
+
+.about-me {
+  display: grid;
+  grid-template-columns: 1fr;
+  transition: all 0.5s;
+}
+
+.about-me-blurb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 1em 0;
+  max-width: 36em;
+}
+
+.about-me-blurb h1 {
+  display: inline-block;
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-size: 2em;
+  text-align: center;
+  margin: 1em 0 0;
+  padding: 0;
+}
+
+.about-me-blurb p {
+  font-size: 1em;
+  margin: .5em 0 0;
+}
+
+.selfie {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.about-footer {
+  margin-top: 1em;
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
@@ -315,17 +349,42 @@ footer nav ul {
   justify-content: space-between;
   align-items: flex-end;
   padding: 0 .5rem 1rem;
-}
-
-  .listing-wrapper {
-    /* justify-content: space-around; */
-  }
+ }
 
   .listings {
     max-width: 33.33333vh;
   }
 
+  /* About Page */
+  .about-me h1 {
+    font-size: 2.5em;
+  }
+}
 
+@media only screen and (min-width: 60em) {
+
+  .about-me {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    max-width: 65em;
+    margin: 0 auto;
+  }
+
+  .selfie {
+    align-self: end;
+  }
+
+  .about-me-blurb {
+    justify-content: end;
+  }
+
+  .about-me h1 {
+    text-align: left;
+    font-size: 3em;
+  }
+}
 @media only screen and (min-width: 75em) {
 
   html {
