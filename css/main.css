@@ -423,17 +423,6 @@ textarea:focus {
   outline: none;
 }
 
-@media only screen and (max-width: 25em) {
-
-  .intro-text h1 {
-    font-size: 4.5em;
-  }
-
-  .intro-text h2 {
-    font-size: 2.5em;
-  }
-
-}
 @media only screen and (min-width: 38em) {
 
   html {
@@ -562,6 +551,7 @@ textarea:focus {
   .about-footer nav {
     display: none;
   }
+
 }
 
 @media only screen and (min-width: 75em) {
