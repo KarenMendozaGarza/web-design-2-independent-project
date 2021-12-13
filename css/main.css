@@ -135,6 +135,12 @@ nav a:focus {
   margin: 0 0 1rem;
 }
 
+h1,
+h2 {
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+}
+
 .shop-btn {
   bottom: 2em;
   left: 50%;
@@ -146,10 +152,10 @@ nav a:focus {
   font-style: italic;
 }
 
-/* main a{
+main a{
   text-decoration: none;
   color: #fff;
-} */
+}
 
 .primary-btn {
   font-size: 1em;
@@ -159,6 +165,7 @@ nav a:focus {
   border-radius: .6em;
   text-align: center;
   transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .primary-btn:hover {
@@ -245,6 +252,7 @@ background: #996C58;
   border-radius: .6em;
   margin: 0 auto 1em;
   transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .secondary-btn:hover {
@@ -254,16 +262,6 @@ background: #996C58;
 
 .secondary-btn:focus {
   outline: 3px solid #996C58;
-}
-
-.contact-info {
- list-style-type: none;
- margin-left: 0;
- padding-left: 0;
-}
-.social-links {
-color: #1A1A1A;
-text-decoration: underline dotted #996C58;
 }
 
 .social-icon svg{
@@ -315,7 +313,7 @@ footer nav ul {
   display: inline-block;
   font-family: ivypresto-display, serif;
   font-weight: 300;
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
   margin: 1em 0 0;
   padding: 0;
@@ -337,9 +335,78 @@ footer nav ul {
 }
 
 /* Contact Page */
+
+.content-page {
+  padding: 1em;
+}
+
+.contact-links {
+ list-style-type: none;
+ margin-left: 0;
+ padding-left: 0;
+}
+
+.contact-links a {
+color: #1A1A1A;
+text-decoration: underline dotted #996C58;
+transition: 0.5s;
+}
+
+.contact-links a:hover {
+color: #996c58;
+text-decoration: underline dotted #1a1a1a;
+}
+
 .contact-info li {
   display: flex;
   align-items: center;
+}
+.contact-info h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.contact-info h2{
+  font-size: 1.5em;
+}
+
+legend {
+  display: block;
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+label {
+  display: block;
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+  font-size: 1.25em;
+  }
+
+form div {
+  margin-bottom: 1rem;
+}
+
+input,
+textarea {
+  font-family: proxima-nova, sans-serif;
+  font-size: 1.125em;
+  width: 100%;
+  max-width: 25em;
+  border: 1px solid #996C58;
+  border-radius: .6em;
+  padding: .3em;
+}
+
+textarea {
+  height: 10em;
+}
+
+input:focus,
+textarea:focus {
+  border: 3px solid #1a1a1a;
+  outline: none;
 }
 
 @media only screen and (min-width: 38em) {
